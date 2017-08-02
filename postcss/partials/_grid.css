@@ -1,0 +1,39 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: calc(var(--grid-gutter-width) / 2);
+    padding-right: calc(var(--grid-gutter-width) / 2);
+}
+
+@media (--tablet) {
+    .container {
+        width: var(--container-sm);
+    }
+}
+@media (--desktop) {
+    .container {
+        width: var(--container-md);
+    }
+}
+@media (--lg-desktop) {
+    .container {
+        width: var(--container-lg);
+    }
+}
+
+.container:before,
+.container:after,
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+.container:after,
+.row:after {
+    clear: both;
+}
+
+.row {
+    margin-left: calc(var(--grid-gutter-width) / -2);
+    margin-right: calc(var(--grid-gutter-width) / -2);
+}

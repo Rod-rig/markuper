@@ -1,0 +1,37 @@
+:root {
+    /* Colors*/
+    --black: #000;
+    --white: #fff;
+
+    --main-bg-color: var(--white);
+    --text-color: var(--black);
+
+    /* Breakpoints*/
+    @custom-media --lg-desktop (min-width: 1200px);
+    @custom-media --desktop (min-width: 992px);
+    @custom-media --tablet (min-width: 768px);
+    @custom-media --phone (min-width: 480px);
+
+    /* Grids*/
+    --grid-columns: 12;
+    --grid-gutter-width: 30px;
+    --container-sm: calc(720px + var(--grid-gutter-width));
+    --container-md: calc(940px + var(--grid-gutter-width));
+    --container-lg: calc(1140px + var(--grid-gutter-width));
+
+    /* Typography*/
+    --font-family-sans-serif: Arial, sans-serif;
+
+    --font-size-base: 16px;
+    --font-size-large: 18px;
+    --font-size-small: 12px;
+    --font-size-h1: 36px;
+    --font-size-h2: 30px;
+    --font-size-h3: 24px;
+    --font-size-h4: 16px;
+    --font-size-h5: 14px;
+    --font-size-h6: 12px;
+
+    /* Others*/
+    --time-animation: 0.2s;
+}
