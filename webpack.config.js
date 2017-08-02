@@ -63,7 +63,7 @@ module.exports = {
                 glob: '*.png'
             },
             target: {
-                image: '../img/sprite.png',
+                image: 'img/sprite.png',
                 css: 'postcss/sprite.css'
             },
             apiOptions: {
