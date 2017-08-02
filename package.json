@@ -1,15 +1,15 @@
 {
-  "name": "epages_markup_start",
+  "name": "markuper",
   "version": "3.0.0",
-  "description": "Markup boilerplate",
-  "main": "",
+  "description": "Markuper start",
+  "main": "webpack.config.js",
   "scripts": {
     "build": "webpack",
     "start": "webpack --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e-pages/Epages-Markup-Boilerplate-for-Bitrix.git"
+    "url": "git+https://github.com:Rod-rig/markuper.git"
   },
   "keywords": [
     "markup",
@@ -18,22 +18,14 @@
   "author": "Vadim Cherniak <cherniakvadim08@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/e-pages/Epages-Markup-Boilerplate-for-Bitrix/issues"
+    "url": "https://github.com/Rod-rig/markuper/issues"
   },
-  "homepage": "https://github.com/e-pages/Epages-Markup-Boilerplate-for-Bitrix#readme",
+  "homepage": "https://github.com/Rod-rig/markuper",
   "browserslist": [
     "> 1%",
     "ie >= 9",
     "last 3 versions"
   ],
-  "useful plugins": {
-    "bootstrap-sass": "^3.3.7",
-    "owl.carousel": "^2.1.1",
-    "jquery-form-styler": "jquery.form-styler#^1.7.4",
-    "jquery-ui": "^1.11.4",
-    "jqueryui-touch-punch": "*",
-    "font-awesome": "^4.6.1"
-  },
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
