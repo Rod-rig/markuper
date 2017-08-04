@@ -1,27 +1,27 @@
 :root {
-    /* Colors*/
+    /* Colors */
     --black: #000;
     --white: #fff;
-
     --main-bg-color: var(--white);
     --text-color: var(--black);
 
-    /* Breakpoints*/
+    /* Breakpoints */
     @custom-media --lg-desktop (min-width: 1200px);
     @custom-media --desktop (min-width: 992px);
     @custom-media --tablet (min-width: 768px);
     @custom-media --phone (min-width: 480px);
 
-    /* Grids*/
+    /* Grids */
     --grid-columns: 12;
     --grid-gutter-width: 30px;
     --container-sm: calc(720px + var(--grid-gutter-width));
     --container-md: calc(940px + var(--grid-gutter-width));
     --container-lg: calc(1140px + var(--grid-gutter-width));
 
-    /* Typography*/
+    /* Fonts */
     --font-family-sans-serif: Arial, sans-serif;
 
+    /* Font sizes */
     --font-size-base: 16px;
     --font-size-large: 18px;
     --font-size-small: 12px;
@@ -32,6 +32,6 @@
     --font-size-h5: 14px;
     --font-size-h6: 12px;
 
-    /* Others*/
+    /* Others */
     --time-animation: 0.2s;
 }

@@ -1,5 +1,5 @@
 import $ from 'jquery';
-require('../postcss/styles.css');
+import '../postcss/styles.css';
 
 $(document).ready(function () {
     let app = {

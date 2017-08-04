@@ -29,6 +29,7 @@
     content: "";
     display: table;
 }
+
 .clearfix:after {
     clear: both;
 }
@@ -43,6 +44,7 @@
     height: 100px;
     line-height: 100px;
 }
+
 .responsive-image img {
     max-height: 100px;
     max-width: 100%;

@@ -5,7 +5,9 @@ body {
     font-size: var(--font-size-base);
 }
 
-*, :after, :before {
+*,
+:after,
+:before {
     box-sizing: border-box;
 }
 

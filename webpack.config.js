@@ -2,6 +2,7 @@ const path = require('path');
 const atimport = require('postcss-import');
 const cssnext = require('postcss-cssnext');
 const csso = require('postcss-csso');
+const stylelint = require('stylelint');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const SpritesmithPlugin = require('webpack-spritesmith');
 
@@ -42,6 +43,7 @@ module.exports = {
                             loader: 'postcss-loader',
                             options: {
                                 plugins: [
+                                    stylelint(),
                                     atimport(),
                                     cssnext(),
                                     csso()

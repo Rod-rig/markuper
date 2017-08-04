@@ -28,6 +28,7 @@
     content: "";
     display: table;
 }
+
 .container:after,
 .row:after {
     clear: both;

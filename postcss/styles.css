@@ -1,8 +1,8 @@
 /* mixins & vars */
 @import "_variables.css";
-
 @import "font-faces.css";
-/*@import "sprite.css";*/
+
+/* @import "sprite.css"; */
 
 /* libraries */
 @import "../node_modules/reset-css/reset.css";
@@ -13,6 +13,9 @@
 @import "partials/_helpers.css";
 
 /* components */
-/*@import "components/_header.css";*/
+
+/* @import "components/_header.css"; */
+
 @import "components/_menu.css";
-/*@import "components/_footer.css";*/
+
+/* @import "components/_footer.css"; */
