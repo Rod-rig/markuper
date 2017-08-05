@@ -9,6 +9,9 @@ $(document).ready(function () {
         }
     };
 
+    /**
+     * loop for all app methods and execute them
+     */
     let initApp = () => {
         for (let method in app) {
             if ((typeof app[method] === 'function') && app.hasOwnProperty(method)) {

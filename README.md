@@ -1,11 +1,11 @@
 # Markuper start
 
-##Features
+## Features
 * configure your project by webpack
 * bundling and minification using webpack
 * support of ES6 syntax which transpile by Babel
 * support of PostCSS syntax
-* lint your CSS by stylelint
+* lint your CSS and JS by stylelint and ESLint
 * sprite generation
 
 ## Getting started
