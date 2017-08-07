@@ -13,29 +13,41 @@ module.exports = {
         filename: 'bundle.min.js'
     },
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.js$/,
-                loader: ['babel-loader', 'eslint-loader'],
+                use: [
+                    {
+                        loader: 'babel-loader',
+                        options: {
+                            'presets': ['es2015']
+                        }
+                    },
+                    'eslint-loader'
+                ],
                 exclude: /node_modules/
             },
             {
                 test: /\.(woff|woff2)$/,
-                loader: 'file-loader',
-                options: {
-                    name: '../fonts/[name].[ext]'
-                }
+                use: {
+                    loader: 'file-loader',
+                    options: {
+                        name: '../fonts/[name].[ext]'
+                    }
+                },
             },
             {
                 test: /\.png$/,
-                loader: 'file-loader',
-                options: {
-                    name: '../img/[name].[ext]'
+                use: {
+                    loader: 'file-loader',
+                    options: {
+                        name: '../img/[name].[ext]'
+                    }
                 }
             },
             {
                 test: /\.css$/,
-                loader: ExtractTextPlugin.extract({
+                use: ExtractTextPlugin.extract({
                     fallback: 'style-loader',
                     use: [
                         'css-loader',
